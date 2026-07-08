@@ -38,7 +38,7 @@ drift; gates don't.
 | [`claude/CLAUDE.md`](claude/CLAUDE.md) | The user-level Claude Code instructions file that binds it all at session level |
 | [`claude/agents/`](claude/agents/) | The leaf-safe subagent definitions (tracer, researcher, reasoner, mechanic, repo-sync, plus three review analyzers) |
 | [`claude/hooks/`](claude/hooks/) | The enforcement hooks: paid-API deny, subagent allowlist, doc-drift check, closing ceremony, epic scope-freeze, session-work markers |
-| [`claude/skills/`](claude/skills/) | Skills: governance audit, adversarial security review, code-map refresh |
+| [`claude/skills/`](claude/skills/) | Skills: delegation playbook, governance audit, adversarial security review, code-map refresh |
 | [`scripts/`](scripts/) | The deterministic SDLC gate scripts: issue hygiene, repo hygiene (WIP/focus), status-transition guard, close gate with revert-check, doc-sync manifest check |
 | [`tools/leak_check.sh`](tools/leak_check.sh) | This kit's own gate: a grep-based check that no private identifier ever lands in this public tree |
 
